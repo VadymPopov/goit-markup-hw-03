@@ -1,0 +1,257 @@
+:root{
+    --main-light-color:#FFF;
+    --main-dark-color:#212121;
+    --main-background-color:#2F303A;
+    --sec-background-color:#F5F4FA;
+
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+
+}
+
+/*Global styles body*/
+
+body {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Header*/
+.page-header {
+    background-color: var(--main-light-color);
+    border: 1px solid #ECECEC;
+}
+
+.header-list {
+    list-style: none;
+   
+}
+
+.logo-header {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-dark-color);
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+
+    color: var(--main-dark-color);
+    text-transform: capitalize;
+}
+
+.link-number,
+.link-mail{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.link-mail:hover,
+.link-mail:focus,
+.link-number:hover,
+.link-number:focus,
+.link-address:hover,
+.link-address:focus,
+.accent{
+    color: var(--accent-color);
+}
+ 
+
+.contacts {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color:var(--primary-text-color);
+
+}
+
+
+/*First section*/
+.main-section{
+    background-color: var(--main-background-color);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-transform: uppercase;
+
+    color:var(--main-light-color);
+}
+
+.main-button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height:1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: var(--main-light-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+}
+.main-button:hover,
+.main-button:focus{
+    background: #188CE8;
+}
+
+
+
+   /*Skills*/
+
+.skills-item {
+    list-style: none;
+    background: var(--main-light-color);
+}
+.skills-title {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-dark-color);
+}
+.skills-text {
+    line-height: 1.72;
+}
+ 
+/*Work*/
+.sec-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    color: var(--main-dark-color);
+}
+.work-list{
+    list-style: none;
+}
+
+ /*Team*/
+.team-section {
+    background:var(--sec-background-color);
+
+}
+.third-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+
+    color: var(--main-dark-color);
+}
+.team-list{
+    list-style: none;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/*Footer*/
+.footer{
+    background:var(--main-background-color);
+}
+.logo-footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+.white-span{
+    color: var(--main-light-color);
+}
+.address{
+    font-style: normal;
+}
+
+.link-address{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--main-light-color);
+}
+
+/*Portfolio*/
+.portfolio{
+    background-color: var(--main-light-color);
+}
+
+.button-list {
+    list-style: none;
+}
+
+
+.button {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+   
+    color:var(--main-dark-color);
+    background:var(--sec-background-color);
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.button:hover,
+.button:focus{
+     color: var(--main-light-color);
+     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contain-list {
+    list-style: none;
+}
+
+.contain-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--main-dark-color);
+}
+
+.contain-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+
+}
+
