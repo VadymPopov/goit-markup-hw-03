@@ -19,108 +19,122 @@
 
 <body>
     <header class="page-header">
+        <div class="main-nav container">
         <a href="./index.html" class="logo-header">Web<span class="accent">Studio</span></a>
+
         <nav> 
-            <ul class="header-list">
-                <li><a href="" class="accent nav-link">Студия</a></li>
-                <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-                <li><a href="" class="nav-link">Контакты</a></li>
+            <ul class="header-list list">
+                <li class="item"><a href="" class="accent nav-link">Студия</a></li>
+                <li class="item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                <li class="item"><a href="" class="nav-link">Контакты</a></li>
             </ul>
          </nav>
-        <ul class="contacts">
-            <li><a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link-number"  href="tel:+380991111111">+38 099 111 11 11</a></li>
+
+        <ul class="contacts list">
+            <li class="item"><a class="contact-mail link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="item"><a class="contact-number link-number"  href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
+        </div>
 
     
     </header>
     
     <main> 
-    <section class=" main-section">
+    <section class="section main-section">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="main-button">Заказать услугу</button>
     </section>
 
-    <section class="skills-section">
+    <section class="section skills-section">
         <h2 class="visually-hidden">Skills </h2>
-            <ul class="list">
+           <div class="container">
+            <ul class="skills-list list">
                 <li class="skills-item">
                     <h3 class="skills-title">Внимание к деталям</h3>
                     <p class="skills-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li class="skills-item">
-                    <h3  class="skills-title">Пунктуальность</h3>
+                    <h3 class="skills-title">Пунктуальность</h3>
                     <p class="skills-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li class="skills-item">
-                    <h3  class="skills-title">Планирование</h3>
+                    <h3 class="skills-title">Планирование</h3>
                     <p class="skills-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li class="skills-item">
-                    <h3  class="skills-title">Современные технологии</h3>
+                    <h3 class="skills-title">Современные технологии</h3>
                     <p class="skills-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+           </div>
 
         
     </section>
 
-    <section class="work-section">
-        <h2 class="sec-header">Чем мы занимаемся</h2>
-        <ul class="work-list">
-            <li>
-                <img  src="./images/close-up-image-programer-working-his-desk-office.jpg" alt="крупный план-изображение-программист-работающий-в-офисе"
-        height="294" width="370"/>
-             </li>
-             <li>
-                <img  src="./images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones.jpg"
-        alt="веб-дизайнеры-пользовательского-интерфейса-разрабатывают-приложения-для-смартфонов " height="294" width="370"/>
-            </li>
-            <li>
-                <img  src="./images/creative-artist-web-design-with-working-colour-selection-graphic-tablet.jpg"
-        alt="веб-дизайн-художник-с-рабочим-графическим-планшетом-для-выбора-цвета" height="294" width="370"/>
-            </li>
-        </ul>
+    <section class="section work-section">
+        <div class="container">
+            <h2 class="sec-header">Чем мы занимаемся</h2>
+            <ul class="work-list list">
+                <li class="work-item">
+                    <img src="./images/close-up-image-programer-working-his-desk-office.jpg"
+                        alt="крупный план-изображение-программист-работающий-в-офисе" height="294" width="370" />
+                </li>
+                <li class="work-item">
+                    <img src="./images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones.jpg"
+                        alt="веб-дизайнеры-пользовательского-интерфейса-разрабатывают-приложения-для-смартфонов " height="294"
+                        width="370" />
+                </li>
+                <li class="work-item">
+                    <img src="./images/creative-artist-web-design-with-working-colour-selection-graphic-tablet.jpg"
+                        alt="веб-дизайн-художник-с-рабочим-графическим-планшетом-для-выбора-цвета" height="294" width="370" />
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section class="team-section">
-        <h2 class="sec-header">Наша команда</h2>
-        <ul class="team-list">
-            <li class="team-member">
-                <img src="./images/igor-demyanenko.jpg" alt="дизайнер-продукта"  width="270" />
-                <h3 class="third-header">Игорь Демьяненко</h3>
-                <p class="team-text">Product Designer</p>
-            </li>
-            <li class="team-member">
-                <img src="./images/olga-repina.jpg" alt="фронтенд-разработчик" width="270" />
-                <h3 class="third-header">Ольга Репина</h3>
-                <p>Frontend Developer</p>
-            </li>
-            <li class="team-member">
-                <img src="./images/nikolai-tarasov.jpg" alt="маркетинг" width="270" />
-                <h3 class="third-header">Николай Тарасов</h3>
-                <p>Marketing</p>
-            </li>
-            <li class="team-member">
-                <img src="./images/mikhail-ermakov.jpg" alt="дизайнер-пользовательского-интерфейса" width="270" />
-                <h3 class="third-header">Михаил Ермаков</h3>
-                <p>UI Designer</p>
-            </li>
-        </ul>
+    <section class=" section team-section">
+        <div class="container">
+            <h2 class="sec-header">Наша команда</h2>
+            <ul class="team-list list">
+                <li class="team-member">
+                    <img src="./images/igor-demyanenko.jpg" alt="дизайнер-продукта" width="270" />
+                    <h3 class="third-header">Игорь Демьяненко</h3>
+                    <p class="team-text">Product Designer</p>
+                </li>
+                <li class="team-member">
+                    <img src="./images/olga-repina.jpg" alt="фронтенд-разработчик" width="270" />
+                    <h3 class="third-header">Ольга Репина</h3>
+                    <p>Frontend Developer</p>
+                </li>
+                <li class="team-member">
+                    <img src="./images/nikolai-tarasov.jpg" alt="маркетинг" width="270" />
+                    <h3 class="third-header">Николай Тарасов</h3>
+                    <p>Marketing</p>
+                </li>
+                <li class="team-member">
+                    <img src="./images/mikhail-ermakov.jpg" alt="дизайнер-пользовательского-интерфейса" width="270" />
+                    <h3 class="third-header">Михаил Ермаков</h3>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
+        </div>
     </section>
     </main>
 
     <footer class="footer">
-    <a href="./index.html" class="logo-footer">Web<span class="white-span">Studio</span></a>
+    <div class="footer-nav container">
+        <a href="./index.html" class="logo-footer">Web<span class="white-span">Studio</span></a>
         <address class="address">
-            <ul class="contacts">
-            <li><a class="link-address" href="https://goo.gl/maps/LzQ1119umcAYYYz89" target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси
-                Украинки, 26</a></li>
+            <ul class="footer-flex contacts list">
+                <li class="footer-item"><a class="link-address" href="https://goo.gl/maps/LzQ1119umcAYYYz89" target="_blank"
+                        rel="noopener noreferrer nofollow">г. Киев, пр-т Леси
+                        Украинки, 26</a></li>
         
-            <li><a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link-number" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li class="footer-item"><a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-item"><a class="link-number" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
+    </div>
 
     </footer>
     
