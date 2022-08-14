@@ -20,9 +20,8 @@
 <body>
     <header class="page-header">
         <div class="main-nav container">
-        <a href="./index.html" class="logo-header">Web<span class="accent">Studio</span></a>
-
-        <nav> 
+        <nav  class="header-nav"> 
+            <a href="./index.html" class="logo-header">Web<span class="accent">Studio</span></a>
             <ul class="header-list list">
                 <li class="item"><a href="" class="accent nav-link">Студия</a></li>
                 <li class="item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
@@ -30,7 +29,7 @@
             </ul>
          </nav>
 
-        <ul class="contacts list">
+        <ul class="contacts-header list">
             <li class="item"><a class="contact-mail link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="item"><a class="contact-number link-number"  href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
@@ -41,13 +40,15 @@
     
     <main> 
     <section class="section main-section">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="main-button">Заказать услугу</button>
+        <div class="container">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="main-button">Заказать услугу</button>
+        </div>
     </section>
 
     <section class="section skills-section">
-        <h2 class="visually-hidden">Skills </h2>
            <div class="container">
+            <h2 class="visually-hidden">Skills </h2>
             <ul class="skills-list list">
                 <li class="skills-item">
                     <h3 class="skills-title">Внимание к деталям</h3>
@@ -122,10 +123,10 @@
     </main>
 
     <footer class="footer">
-    <div class="footer-nav container">
+    <div class="container">
         <a href="./index.html" class="logo-footer">Web<span class="white-span">Studio</span></a>
         <address class="address">
-            <ul class="footer-flex contacts list">
+            <ul class="contacts list">
                 <li class="footer-item"><a class="link-address" href="https://goo.gl/maps/LzQ1119umcAYYYz89" target="_blank"
                         rel="noopener noreferrer nofollow">г. Киев, пр-т Леси
                         Украинки, 26</a></li>
